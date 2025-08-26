@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(22, 22, 22);
+}
+
+body {
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.wrapper__inputs {
+    margin-bottom: 20px;
+
+}
+
+input[type="file"] {
+    color: white;
+}
+
+.slider {
+    width: 500px;
+}
+
+.label {
+    color: white;
+}
+
+.form__button, .file-input::file-selector-button {
+    height: 40px;
+    background-color: #0075ff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form__button:hover, .file-input::file-selector-button:hover {
+    background-color: #4492eb;
+}
+
+
+
+#button {
+    margin-left: 20px;
+}
+
+#urlInput {
+    height: 40px;
+    padding: 0;
+    padding-left: 10px;
+}
+
+#canvas {
+    margin-bottom: 20px;
+}
+
+.file-input::file-selector-button {
+    height: 40px;
+}
